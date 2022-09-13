@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>solicitar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form (ngSubmit)="logForm()">
+    <ion-label>Tipo De trabajo</ion-label>
+    <ion-input type="text"></ion-input>
+    <ion-label>Tarifa ofrecida</ion-label>
+    <ion-input type="text"></ion-input>
+    <ion-label>Descripcion</ion-label>
+    <ion-input type="text"></ion-input>
+  </form>
+  <ion-button [routerLink]="['/mapa']">
+    Mapa
+  </ion-button>
+  <ion-button [routerLink]="['/home']">
+    Cuenta
+  </ion-button>
+</ion-content>

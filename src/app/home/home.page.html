@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Fast-Task
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+       <i icon="profile"></i>
+      <ion-card-subtitle>Nombre de ejemplo</ion-card-subtitle>
+      <ion-card-title>Usuario</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-label>Tareas Realizadas =             </ion-label>
+      <ion-label>10</ion-label>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-label>Tareas Solicitadas =             </ion-label>
+      <ion-label>0</ion-label>
+    </ion-card-content>
+  </ion-card>
+  <ion-button [routerLink]="['/mapa']">
+    Mapa
+  </ion-button>
+  <ion-button [routerLink]="['/solicitar']">
+    Solicitar
+  </ion-button>
+</ion-content>
